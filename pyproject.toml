@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "network-interceptor"
+version = "1.0.0b1"
+requires-python = ">= 3.10"
+description = "Unofficial Ghidra REST API client"
+
+dependencies = [
+    "dataclass-rest@git+https://github.com/reagento/dataclass-rest.git#egg=204bbd1ef9411f95270e4da10717da6dffc6351f"
+]
+
+[project.urls]
+Repository = "https://github.com/Nemoumbra/ghidra-rest-client-python.git"
