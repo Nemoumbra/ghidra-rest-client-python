@@ -1,12 +1,13 @@
+
 # Ghidra Python REST API client
 This library provides the synchronous client for the [unofficial Ghidra extension](https://github.com/kotcrab/ghidra-rest-api) that adds read-only REST API to your Ghidra project.
 
 ## Installation
-
 Right now there's no distribution available at pypi.org, so you'll have to install it from here.
 Either `pip install git+https://github.com/Nemoumbra/ghidra-rest-client-python.git@main`
 (pip is smart enough to install from Github) or clone the repository and do a local installation.
 This package is using `setuptools` so make sure it's present and not too old.
+
 ---
 If your PyCharm is struggling with the package installed as editable, try reinstalling with this command instead: `pip install -e /path/to/cloned/repo --config-settings editable_mode=compat`.
 
