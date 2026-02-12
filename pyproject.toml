@@ -9,7 +9,7 @@ requires-python = ">= 3.10"
 description = "Unofficial Ghidra REST API client"
 
 dependencies = [
-    "dataclass-rest@git+https://github.com/reagento/descanso.git#egg=204bbd1ef9411f95270e4da10717da6dffc6351f"
+    "descanso@git+https://github.com/reagento/descanso.git#egg=204bbd1ef9411f95270e4da10717da6dffc6351f"
 ]
 
 [project.urls]
